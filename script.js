@@ -40,11 +40,6 @@ function startCountdown(targetDate) {
 	const timer = setInterval(update, 1000);
 }
 
-function setVariableMainHeight() {
-	const headerHeight = headerElement.getBoundingClientRect().height;
-	mainElement.style.height = `calc(100vh - ${headerHeight}px)`;
-}
-
 function timesUp() {
 	const element = document.createElement("div");
 	element.classList.add("complete-message");
@@ -53,6 +48,4 @@ function timesUp() {
 	return element;
 }
 
-setVariableMainHeight();
-window.addEventListener("resize", setVariableMainHeight);
 startCountdown(DATE_OF_DEPARTURE);
