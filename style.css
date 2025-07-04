@@ -58,7 +58,7 @@ header,
 	text-align: center;
 }
 header {
-	height: auto;
+	height: 13.1875rem;
 	background-color: inherit;
 	color: var(--bg-light);
 	border-bottom: 3.75px solid var(--gold);
@@ -67,9 +67,9 @@ header h2 {
 	padding-bottom: 0.5rem;
 }
 main {
+	height: calc(100vh - 13.1875rem);
 	background-color: var(--bg-light);
 	color: var(--bg-dark);
-	position: relative;
 }
 .wrapper {
 	max-width: 50rem;
@@ -98,17 +98,6 @@ main {
 }
 .main p {
 	font-size: 1.5rem;
-}
-[src="france.jpg"],
-[src="spain.png"] {
-	position: absolute;
-	bottom: 2rem;
-}
-[src="france.jpg"] {
-	left: 1rem;
-}
-[src="spain.png"] {
-	right: 1rem;
 }
 .complete-message {
 	font-size: 9rem;
