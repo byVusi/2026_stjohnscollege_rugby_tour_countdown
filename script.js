@@ -1,3 +1,10 @@
+if ("serviceWorker" in navigator) {
+	navigator.serviceWorker
+		.register("./sw.js")
+		.then(() => console.log("✅ Service Worker registered"))
+		.catch((err) => console.error("❌ Service Worker failed:", err));
+}
+
 const DATE_OF_DEPARTURE = "2026-04-07T21:00:00";
 
 const headerElement = document.querySelector("header");
