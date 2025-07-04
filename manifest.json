@@ -1,0 +1,27 @@
+{
+	"name": "Tour Countdown",
+	"short_name": "Countdown",
+	"description": "A simple web app that displays a live countdown timer to the start of the 2026 St John’s College Rugby Tour. Built to generate excitement and help players, coaches, and supporters track the days, hours, minutes and seconds left until departure.",
+	"scope": "/2026_stjohnscollege_rugby_tour_countdown/",
+	"start_url": "/2026_stjohnscollege_rugby_tour_countdown/",
+	"dir": "ltr",
+	"lang": "en-ZA",
+	"prefer_related_applications": false,
+	"categories": ["utilities", "travel"],
+	"orientation": "portrait",
+	"display": "standalone",
+	"background_color": "#fafafa",
+	"theme_color": "#013760",
+	"icons": [
+		{
+			"src": "./icon-192.png",
+			"type": "image/png",
+			"sizes": "192x192"
+		},
+		{
+			"src": "./icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
+		},
+	]
+}
