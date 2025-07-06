@@ -16,7 +16,6 @@ const FILES_TO_CACHE = [
 	"./apple-touch-icon.png",
 	"./style.css",
 	"./script.js",
-	"./favicon.ico",
 	"./icon-192.png",
 	"./icon-512.png",
 ];
