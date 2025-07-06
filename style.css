@@ -2,7 +2,7 @@
 	--bg-light: #fafafa;
 	--bg-dark: #313335;
 	--blue: #013760;
-	--gold: #dab349;
+	--gold: rgb(218, 180, 75);
 }
 * {
 	margin: 0;
@@ -61,6 +61,8 @@ header,
 header {
 	height: 13.1875rem;
 	background-color: inherit;
+	background-image: url("https://www.stjohnscollege.co.za/images/navbar.png");
+	background-repeat: no-repeat;
 	color: var(--bg-light);
 	border-bottom: 3.75px solid var(--gold);
 }
