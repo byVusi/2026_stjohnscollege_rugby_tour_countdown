@@ -38,9 +38,9 @@ function startCountdown(targetDate) {
 
 		// Change in UI
 		daysDigits.textContent = days;
-		hoursDigits.textContent = hours;
-		minutesDigits.textContent = minutes;
-		secondsDigits.textContent = seconds;
+		hoursDigits.textContent = hours >= 10 ? hours : `0${hours}`;
+		minutesDigits.textContent = minutes >= 10 ? minutes : `0${minutes}`;
+		secondsDigits.textContent = seconds >= 10 ? seconds : `0${seconds}`;
 	}
 
 	update(); // call immediately
