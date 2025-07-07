@@ -5,7 +5,7 @@ if ("serviceWorker" in navigator) {
 		.catch((err) => console.error("❌ Service Worker failed:", err));
 }
 
-const DATE_OF_DEPARTURE = "2026-04-07T21:00:00";
+const DATE_OF_DEPARTURE = "2026-04-07T00:00:00";
 
 const headerElement = document.querySelector("header");
 const mainElement = document.querySelector("main");
